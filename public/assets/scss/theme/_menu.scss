@@ -676,7 +676,7 @@ header{
     .sub-arrow {
       position: absolute;
       top: 50%;
-      margin-top: -(ceil($theme-deafult__toggle-size / 2));
+      margin-top: -(ceil(calc($theme-deafult__toggle-size / 2)));
       left: auto;
       right: 15px;
       width: $theme-deafult__toggle-size;
